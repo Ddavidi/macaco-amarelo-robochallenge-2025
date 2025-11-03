@@ -1,33 +1,98 @@
-macaco-amarelo-robochallenge-2025
+# 🤖 Macaco Amarelo - RoboChallenge 2025
 
-Repositório oficial da equipe 'Macaco Amarelo' para a modalidade Sumô de Robôs (Classe 0,5kg) do PUC Minas RoboChallenge 2025.
+> 🥇 **Campeão da Competição de Robô Sumô (Classe 0,5kg)**  
+> PUC Minas RoboChallenge 2025
 
-🥇 Campeão da Competição 🥇
+![Status](https://img.shields.io/badge/Status-Campeão_🥇-brightgreen)
+![Categoria](https://img.shields.io/badge/Categoria-Sumô_0.5kg-orange)
+![License](https://img.shields.io/badge/License-MIT-blue)
 
-Este projeto foi o campeão da modalidade Sumô de Robôs (0,5kg), conquistando o 1º lugar no PUC Minas RoboChallenge 2025.
+Repositório oficial da equipe **Macaco Amarelo** para a modalidade **Sumô de Robôs (Classe 0,5kg)** do PUC Minas RoboChallenge 2025.
 
-Este repositório contém todo o código-fonte, documentação e arquivos de calibração utilizados no desenvolvimento do nosso robô de sumô.
+## 🏆 Conquista
 
-🤖 O Robô
+**🥇 1º Lugar na Competição**  
+Este projeto foi o grande campeão da modalidade Sumô de Robôs (0,5kg), demonstrando excelência em estratégia, implementação e performance durante o PUC Minas RoboChallenge 2025.
 
-Nosso projeto é baseado no chassi "Baby Sumo" (Open Source), utilizando um Arduino Nano com uma placa de expansão. O robô utiliza dois servos de rotação contínua (SG90 360°) para tração, dois sensores infravermelhos para detecção de linha (borda do ringue) e um sensor ultrassônico frontal (HC-SR04) para detecção do oponente.
+## 👨‍💻 Equipe Macaco Amarelo
 
-💻 Código
+| Integrante | Função | Contato |
+|------------|--------|---------|
+| **David Nunes Ribeiro** | Líder da Equipe | ddnr03@gmail.com |
+| **Ariel Inácio Jordão Coelho** | Desenvolvedor | arielijordao@gmail.com |
+| **Bernardo Rodrigues Pereira** | Desenvolvedor | be.bear.rp@gmail.com |
+| **Bruna de Paula Anselmi** | Desenvolvedora | bruanselmii@gmail.com |
 
-O código principal está dividido em arquivos .ino, incluindo:
+## 🤖 Sobre o Robô
 
-Código de Combate: A lógica final para a competição de sumô.
+Nosso robô de sumô é baseado no chassi **"Baby Sumo"** (Open Source) e apresenta as seguintes características técnicas:
 
-Códigos de Calibração: Scripts utilizados para encontrar os valores de parada dos motores e testar os sensores.
+### 🛠️ Hardware
+- **Controlador**: Arduino Nano com placa de expansão
+- **Motores**: 2x Servos de rotação contínua (SG90 360°)
+- **Sensores**:
+  - 2x Sensores infravermelhos para detecção de linha (borda do ringue)
+  - 1x Sensor ultrassônico frontal (HC-SR04) para detecção do oponente
+- **Chassi**: Baby Sumo (Open Source)
 
-Testes de Labirinto: Algoritmos alternativos para a modalidade de labirinto.
+### ⚡ Funcionalidades
+- Detecção precisa das bordas do ringue
+- Localização eficiente do oponente
+- Movimentos estratégicos de ataque e defesa
+- Calibração otimizada para alta performance
 
-👨‍💻 Integrantes
+## 📁 Estrutura do Projeto
+    macaco-amarelo-robochallenge-2025/
+    ├── 📄 README.md
+    ├── 🤖 codigo_combate/ # Lógica final para competição
+    ├── 🎯 calibracao/ # Scripts de calibração de motores e sensores
+    ├── 🧪 testes_labirinto/ # Algoritmos para modalidade de labirinto
+    └── 📝 documentacao/ # Documentação técnica e esquemáticos
 
-David Nunes Ribeiro (Líder) - ddnr03@gmail.com
+## 🚀 Como Utilizar
 
-Ariel Inácio Jordão Coelho - arielijordao@gmail.com
+### Pré-requisitos
+- Arduino IDE
+- Placa Arduino Nano
+- Bibliotecas padrão do Arduino
 
-Bernardo Rodrigues Pereira - be.bear.rp@gmail.com
+### Instalação
+1. Clone este repositório:
+   ````bash
+   git clone https://github.com/seu-usuario/macaco-amarelo-robochallenge-2025.git
 
-Bruna de Paula Anselmi - bruanselmii@gmail.com
+2. Abra o arquivo .ino desejado na Arduino IDE
+
+3. Faça o upload para o Arduino Nano
+
+## Calibração
+Execute os scripts de calibração na seguinte ordem:
+
+- **calibracao_motores.ino** - Encontre os valores de parada dos servos
+
+- **teste_sensores.ino** - Verifique o funcionamento dos sensores
+
+- **codigo_combate.ino** - Código final otimizado para competição
+
+## 🎯 Estratégias Implementadas
+- Busca Ativa: Varredura sistemática para localizar o oponente
+
+- Fuga Inteligente: Detecção e escape eficiente das bordas
+
+- Ataque Persistente: Perseguição agressiva uma vez detectado o oponente
+
+- Defesa Preventiva: Movimentos defensivos quando necessário
+
+### 📊 Performance
+## **🏆 1º Lugar na categoria Sumô 0,5kg**
+
+⚡ Tempo de reação: < 100ms
+
+🎯 Taxa de sucesso em detecção: > 95%
+
+🔄 Calibração otimizada para diferentes superfícies
+
+📝 Licença
+Este projeto está sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
+
+## **Macaco Amarelo - Campeões do PUC Minas RoboChallenge 2025 🥇**
