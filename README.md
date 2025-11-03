@@ -43,7 +43,7 @@ Nosso robô de sumô é baseado no chassi **"Baby Sumo"** (Open Source) e aprese
 
 ## 📁 Estrutura do Projeto
     macaco-amarelo-robochallenge-2025/
-    ├──  🧪 codigo do labirinto/ # Algoritmos para modalidade de labirinto
+    ├── 🧪 codigo do labirinto/ # Algoritmos para modalidade de labirinto
     ├── 🎯 codigos de calibragem/ # Scripts de calibração de motores e sensores
     ├── 🤖 codigos de combate/ # Lógica final para competição
     ├── 📖 codigos de teste/ # Documentação técnica e esquemáticos 
